@@ -4,7 +4,6 @@ class GraphqlController < ApplicationController
   before_action :set_current_user
 
   def create
-    puts params[:query]
     result = RelaySchema.execute(
       params[:query],
       debug: true,
