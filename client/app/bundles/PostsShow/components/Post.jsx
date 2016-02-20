@@ -1,7 +1,9 @@
 import React from 'react';
 import Relay from 'react-relay';
-import Comment from '../../Comment/components/Comment';
 import classNames from 'classnames';
+
+// Import components
+import Comment from '../../Comments/components/Comments';
 import CreateComment from '../../Mutations/CreateComment';
 import CreatePostVote from '../../Mutations/CreatePostVote';
 import DestroyPostVote from '../../Mutations/DestroyPostVote';

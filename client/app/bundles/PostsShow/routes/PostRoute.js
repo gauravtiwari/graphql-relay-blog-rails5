@@ -12,7 +12,7 @@ const PostRoute = {
     } `,
   },
   params: {
-    postId: window.location.pathname.split('/')[2]
+    postId: window.location.pathname.split('/')[2],
   },
   name: 'PostRoute',
 };
