@@ -1,4 +1,4 @@
-class Post < ActiveRecord::Base
+class Post < ApplicationRecord
 
   # Slug for posts
   acts_as_url :title, url_attribute: :slug

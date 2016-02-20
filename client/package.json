@@ -45,6 +45,9 @@
     "babel-preset-es2015": "^6.5.0",
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
+    "babel-relay-plugin": "^0.7.1",
+    "babel-relay-plugin-loader": "^0.7.0",
+    "classnames": "^2.2.3",
     "css-loader": "^0.23.1",
     "es5-shim": "^4.5.2",
     "expose-loader": "^0.7.1",
@@ -56,7 +59,9 @@
     "react": "^0.14.7",
     "react-bootstrap": "^0.28.3",
     "react-dom": "^0.14.7",
-    "react-on-rails": "3.0.2",
+    "react-on-rails": "file:///Users/gaurav/contributions/react_on_rails",
+    "react-relay": "^0.7.1",
+    "showdown": "^1.3.0",
     "webpack": "^1.12.13"
   },
   "devDependencies": {
@@ -79,5 +84,10 @@
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack-dev-server": "^1.14.1"
+  },
+  "metadata": {
+    "graphql": {
+      "schema": "../app/assets/javascripts/relay/schema.json"
+    }
   }
 }

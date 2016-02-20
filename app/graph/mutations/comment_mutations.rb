@@ -68,4 +68,3 @@ module CommentMutations
     }
   end
 end
-

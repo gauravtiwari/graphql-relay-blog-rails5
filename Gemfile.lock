@@ -1,3 +1,13 @@
+PATH
+  remote: /Users/gaurav/contributions/react_on_rails
+  specs:
+    react_on_rails (3.0.2)
+      connection_pool
+      execjs (~> 2.5)
+      foreman
+      rails (>= 3.2)
+      rainbow (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -61,12 +71,11 @@ GEM
     connection_pool (2.2.0)
     dalli (2.7.6)
     debug_inspector (0.0.2)
-    devise (3.5.6)
+    devise (4.0.0.rc1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
-      railties (>= 3.2.6, < 5)
+      railties (>= 4.1.0, < 5.1)
       responders
-      thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.6.0)
@@ -82,10 +91,10 @@ GEM
       parslet (~> 1.6)
     graphql-relay (0.6.2)
       graphql (~> 0.8)
+    httparty (0.13.7)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.7.0)
-    jbuilder (2.4.1)
-      activesupport (>= 3.0.0, < 5.1)
-      multi_json (~> 1.2)
     jquery-rails (4.1.0)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
@@ -106,7 +115,7 @@ GEM
     mime-types (2.99)
     mini_portile2 (2.0.0)
     minitest (5.8.4)
-    multi_json (1.11.2)
+    multi_xml (0.5.5)
     nio4r (1.2.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
@@ -156,12 +165,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rainbow (2.1.0)
     rake (10.5.0)
-    react_on_rails (3.0.2)
-      connection_pool
-      execjs (~> 2.5)
-      foreman
-      rails (>= 3.2)
-      rainbow (~> 2.1)
     redis (3.2.2)
     ref (2.0.0)
     responders (2.1.1)
@@ -213,13 +216,13 @@ DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
   coffee-rails (~> 4.1.0)
   dalli
-  devise
+  devise (>= 4.0.0.rc1)
   faker
   figaro
   foreman
   graphql
   graphql-relay
-  jbuilder (~> 2.0)
+  httparty
   jquery-rails
   js-routes
   kgio
@@ -230,7 +233,7 @@ DEPENDENCIES
   rack-cache
   rails (>= 5.0.0.beta2, < 5.1)
   rails_12factor
-  react_on_rails (~> 3)
+  react_on_rails!
   redis (~> 3.0)
   sass-rails (~> 5.0)
   spring

@@ -19,8 +19,6 @@ gem 'therubyracer', platforms: :ruby
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '~> 5.0.0.beta'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
 # Action Cable dependencies for the Redis adapter
 gem 'redis', '~> 3.0'
 # Javascript routes
@@ -28,7 +26,7 @@ gem 'js-routes'
 # Authorization
 gem 'pundit'
 # User auth
-gem 'devise'
+gem 'devise', '>= 4.0.0.rc1'
 # Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
 # Slug
@@ -36,13 +34,14 @@ gem 'stringex'
 # Time
 gem 'local_time'
 # React integration
-gem 'react_on_rails', '~> 3'
+gem 'react_on_rails', :path => "/Users/gaurav/contributions/react_on_rails"
 # GraphQL integration
 gem 'graphql'
 gem 'graphql-relay'
 # Fake data
 gem 'faker'
 
+gem 'httparty'
 # Caching
 gem 'rack-cache'
 gem 'kgio'
