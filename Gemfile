@@ -34,10 +34,10 @@ gem 'stringex'
 # Time
 gem 'local_time'
 # React integration
-gem 'react_on_rails', :path => "/Users/gaurav/contributions/react_on_rails"
+gem 'react_on_rails', github: "gauravtiwari/react_on_rails"
 # GraphQL integration
-gem 'graphql'
-gem 'graphql-relay'
+gem 'graphql', github: 'rmosolgo/graphql-ruby'
+gem 'graphql-relay', github: 'rmosolgo/graphql-relay-ruby'
 # Fake data
 gem 'faker'
 
